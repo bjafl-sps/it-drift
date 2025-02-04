@@ -29,6 +29,13 @@ også inkluderer instruksjoner for å aktivere virtualiseringsstøtten.
    - Virtualisering må være aktivert
    - Kalles ofte VT-x (Intel) eller AMD-V (AMD)
 
+> #### Får du ikke aktivert virtualiseringsstøtte?
+>
+> Selv om hardware-virtualisering ikke er aktivert, kan det være du kan sette
+> opp en fungerende VM. Du kan prøve å gå videre uten at virtualiseringsstøtten
+> er aktivert korrekt. Hvis du da får problemer med å kjøre VM, kan det være
+> på grunn av at virtualiseringsstøtten ikke er aktiv.
+
 ## Programvare-installasjon
 
 ### VirtualBox
@@ -75,8 +82,7 @@ underveis.
 - [ ] VirtualBox er installert og fungerer
 - [ ] Extension Pack er installert
 - [ ] Ubuntu Server ISO er lastet ned
-- [ ] Dokumentasjonsverktøy er klart
-- [ ] Prosjektmappe er opprettet
+- [ ] Tekstfil for logging og dokumentering opprettet
 
 ## Neste steg
 Når alle punkt på sjekklisten er oppfylt, er du klar til å begynne med oppsett av den virtuelle maskinen. Ta deg tid til å sjekke at alt er klart - det gjør resten av prosjektet enklere.
